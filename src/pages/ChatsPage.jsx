@@ -1,4 +1,4 @@
-
+import Chats from "../components/Chat.jsx"
 
 
 export default function ChatsPage() {
@@ -7,6 +7,7 @@ export default function ChatsPage() {
       <h1>
         Chats
       </h1>
+      <Chats />
     </main>
   )
 }
